@@ -109,7 +109,7 @@ apis:
         url: https://www.piggyvestbusiness.com/docs
       - type: Authentication
         url: https://www.piggyvestbusiness.com/docs/authentication
-      - type: SignUp
+      - type: Signup
         url: https://dashboard.piggyvest.business/signup
       - type: Login
         url: https://dashboard.piggyvest.business/login
@@ -133,7 +133,7 @@ common:
     url: https://www.piggyvestbusiness.com/docs
   - type: Authentication
     url: https://www.piggyvestbusiness.com/docs/authentication
-  - type: SignUp
+  - type: Signup
     url: https://dashboard.piggyvest.business/signup
   - type: Login
     url: https://dashboard.piggyvest.business/login
