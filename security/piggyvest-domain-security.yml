@@ -1,0 +1,32 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.piggyvest.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  2 05:20:04 2026 GMT
+  hsts: false
+- host: www.piggyvestbusiness.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  9 23:30:37 2026 GMT
+  hsts: false
+- host: api.piggyvest.business
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  7 17:32:50 2026 GMT
+  hsts: null
+domains:
+- domain: piggyvest.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: piggyvestbusiness.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: none

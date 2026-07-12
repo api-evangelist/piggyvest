@@ -123,6 +123,8 @@ apis:
       - FN: PiggyVest Business Support
         email: business@piggyvest.com
 common:
+  - type: DomainSecurity
+    url: security/piggyvest-domain-security.yml
   - type: Website
     url: https://www.piggyvest.com
   - type: BusinessWebsite
