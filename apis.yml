@@ -222,8 +222,6 @@ common:
     url: mailto:support@piggyvest.com
   - type: BusinessSupportEmail
     url: mailto:business@piggyvest.com
-  - type: Phone
-    url: tel:+2347009339339
   - type: Address
     url: https://maps.google.com/?q=Tesmot+House+Abdulrahman+Okene+Close+Victoria+Island+Lagos+Nigeria
   - type: Privacy
