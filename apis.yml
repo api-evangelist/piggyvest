@@ -72,6 +72,31 @@ tags:
   - Transfers
   - Bank Transfers
   - Scheduled Payments
+  - Webhook
+  - Hosted Checkout
+  - Pay With Pocket
+  - Invoicing
+  - Reserved Accounts
+  - Africa
+  - Nigeria
+  - Lagos
+tags_raw:
+  - Fintech
+  - Savings
+  - Investments
+  - Digital Wallet
+  - Micro Savings
+  - Goal Based Savings
+  - Fixed Deposit
+  - Dollar Savings
+  - Consumer Finance
+  - Personal Finance
+  - Mobile Banking
+  - Business Banking
+  - Wallet API
+  - Transfers
+  - Bank Transfers
+  - Scheduled Payments
   - Webhooks
   - Hosted Checkout
   - Pay With Pocket
@@ -105,6 +130,17 @@ apis:
     humanURL: https://www.piggyvestbusiness.com/docs
     baseURL: https://api.piggyvest.business
     tags:
+      - Wallets
+      - Customers
+      - Transfers
+      - Bank Transfers
+      - Transaction
+      - Scheduled Payments
+      - Webhook
+      - Pay With Pocket
+      - Reserved Accounts
+      - Authentication
+    tags_raw:
       - Wallets
       - Customers
       - Transfers
