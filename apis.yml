@@ -41,6 +41,17 @@ description: >-
   the consumer brand maintains a static piggyvest.github.io site, but
   there is no developer org publishing official Piggyvest Business SDKs.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
