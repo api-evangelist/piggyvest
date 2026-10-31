@@ -1,4 +1,4 @@
-# piggyvest
+# PiggyVest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PiggyVest — Nigerian micro-savings and investment platform with a Bearer-token Business API (wallets, transfers, scheduled payments, webhooks, Pay with Pocket)
+PiggyVest is a Lagos-based Nigerian fintech (operated by Piggytech Global Limited, RC 1405222) running the country's largest online savings and investment platform, with 6M+ registered users as of 2026. Founded in January 2016 by Somto Ifezue, Odunayo Eweniyi, and Joshua Chibueze as Piggybank.ng and rebranded to PiggyVest in April 2019, the company digitizes the traditional Nigerian "kolo" piggy-bank, layering automated savings, fixed-term safe-locks, naira and dollar wallets, and curated investments on top of licensed banking partners (originally United Bank for Africa) and a PCI-DSS-compliant payment stack. The consumer product family includes Piggybank (automated daily/weekly/monthly savings), SafeLock (fixed-tenor savings with up-front interest), Target Savings (goal-based saving, solo or group), Flex Naira (flexible wallet with free transfers), Flex Dollar / SafeLock Dollar (USD savings), HouseMoney (rent wallet), Investify (curated investment opportunities), GetIT (lifestyle purchase plans), Piggy Points (rewards), and an Accountability Partner feature, all delivered through iOS, Android, and web apps published by Piggytech Global. On the developer side, PiggyVest operates a separate B2B brand — PiggyVest Business — at piggyvest.business and exposes the PiggyVest Business API at api.piggyvest.business, documented at www.piggyvestbusiness.com/docs. The Business API is a Bearer-token authenticated REST API (secret key in Authorization header) covering customer creation and retrieval, customer wallets (create / retrieve / list, accrued-interest tracking, reserved account numbers, funding accounts), wallet-to-wallet and bank transfers (with name inquiry and bank lookup), transactions (status, history, T+1 settlement), scheduled payments (create / cancel / reactivate), webhooks for real-time event notifications, and a "Pay with Pocket" SDK / hosted-checkout integration that lets merchants accept payments funded from a Piggyvest user's Pocket balance. Default rate limits are approximately 100 requests per minute. No public OpenAPI specification, official SDK packages, or open-source client libraries are currently published; access is gated by signing up for a PiggyVest Business dashboard account. Alongside the API, PiggyVest Business offers Invoicing, Customizable Accounts, Business Safelock, Investify for Business, and business savings earning up to 18% per annum. Public engineering presence is limited — the Piggytech Global GitHub org (github.com/PiggyTech) hosts a small set of community wrappers (react-paystack, Smile Identity Node.js and React Native wrappers) and the consumer brand maintains a static piggyvest.github.io site, but there is no developer org publishing official Piggyvest Business SDKs.
+
+**Areas:** Fintech · Savings · Investment · Digital Wallet · Micro Savings · Goal Based Savings · Fixed Deposit · Dollar Savings · Consumer Finance · Personal Finance · Mobile Banking · Business Banking
+
+## PiggyVest on APIs.io
+
+Everything profiled for PiggyVest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/piggyvest/](https://apis.io/providers/piggyvest/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [PiggyVest Business API](https://apis.io/apis/piggyvest/business-api/) — The PiggyVest Business API is a Bearer-token-authenticated REST API hosted at api.piggyvest.business that lets Nigerian businesses programmatically create…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Piggyvest Domain Security](https://apis.io/security/piggyvest/piggyvest-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.piggyvest.com)
+- [Documentation](https://www.piggyvestbusiness.com/docs)
+- [Support](https://www.piggyvest.com/support)
+- [Blog](https://blog.piggyvest.com)
+
+## API Evangelist rating
+
+**Kin Score 14.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 17.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/piggyvest/](https://apis.io/providers/piggyvest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PiggyVest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/piggyvest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
